@@ -1,5 +1,0 @@
-<?php
-//test
-echo "hello world"
-echo "hello jenkins"
-?>

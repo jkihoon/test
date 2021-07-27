@@ -1,4 +1,0 @@
-<?php
-//test
-echo "7/27 jenkins testpage"
-?>
