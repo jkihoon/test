@@ -1,0 +1,10 @@
+1. 인스턴스 접속 후 사용할 공개키와 비공개키 생성
+2. 연결할 github 프로젝트 settings - deploy keys에 공개키 등록
+3. ~/.ssh/config 파일 생성 후 
+Host test       (github url대신 사용할 host 생성)
+        HostName github.com     (호스트이름)
+        User git		     (user)
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/test_rsa      (프라이빗 키 경로)
+4. git clone git@호스트명(config파일에 입력한 host명):github user/repo명
+ex) git@test:jkihoon/test.git
